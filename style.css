@@ -1,0 +1,139 @@
+
+#home{
+  background-color: #eaeaea !important;
+}
+#name{
+  color:#1E90FF !important;
+}
+.card {
+  box-shadow: none !important;
+}
+.bg-secondary{
+    background-color: #aaff00 !important;
+}
+ #btnVersAvantages:hover {
+    box-shadow: 0 0 20px #aaff00, 0 0 30px #aaff00;
+    text-shadow: 0 0 5px #000;
+    animation: neon-pulse 1.5s ease-in-out infinite;
+}
+#btnVersHistoire:hover{
+  box-shadow:  0 0 20px #aaff00, 0 0 30px #aaff00;
+  text-shadow: 0 0 5px #000;
+  animation: neon-pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes neon-pulse {
+    0%, 100% { box-shadow: 0 0 20px #aaff00, 0 0 30px #aaff00; }
+    50% { box-shadow: 0 0 30px #aaff00, 0 0 50px #aaff00; }
+
+}
+
+/* Justification du texte */
+.text-justify {
+  text-align: justify;
+}
+
+/* Optionnel : amélioration responsive */
+#objectifs, #valeurs, #projet, #contact, #cv {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+#objectifs p, #valeurs p {
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+
+
+@media (max-width: 768px) {
+  #objectifs {
+    padding: 1rem;
+  }
+
+  #objectifs p {
+    font-size: 0.95rem;
+  }
+}
+@media (min-width: 992px) {
+  .hide-lg {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) {
+  .card-icon-only {
+    width: auto;
+    height: auto;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+  }
+
+  .card-icon-only .card-body {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-icon-only .card-title,
+  .card-icon-only .card-text,
+  .card-icon-only .btn {
+    display: none;
+  }
+
+  .card-icon-only img {
+    width: 64px; /* ou la taille exacte de ton logo */
+    height: 64px;
+  }
+}
+@media (min-width: 992px) {
+    .card-icon-only {
+        min-height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+  #objectifs {
+    padding: 0.75rem;
+  }
+
+  #objectifs p {
+    font-size: 0.9rem;
+  }
+}
+.rotatey-loop {
+  animation: rotateYLoop 5s linear infinite;
+  transform-style: preserve-3d;
+}
+
+@keyframes rotateYLoop {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+.hidden {
+  display : none
+};
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.modal-close:hover {
+  transform: scale(1.2);
+}

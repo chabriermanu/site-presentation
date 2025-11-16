@@ -1,0 +1,11 @@
+# Fichiers de configuration sensibles
+traiter_contact_adapte.php
+
+# Fichiers uploadés
+uploads/*
+!uploads/.gitkeep
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+*.log
