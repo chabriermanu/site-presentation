@@ -82,19 +82,45 @@
         </div>
     </div>
 
-    <!-- CV --> 
+   <!-- CV --> 
     <div id="modalCv" class="modal fade" tabindex="-1"> 
-        <div class="modal-dialog"> 
-            <div class="modal-content d-flex flex-column" style="width: 100%; height: 70vh; overflow-y: auto; margin: auto;" id="headerCV"> 
-                <div class="w-100 position-relative text-center"> 
-                    <button data-bs-dismiss="modal" class="modal-close">✌</button> 
+        <div class="modal-dialog modal-xl" style="max-width: 90%;"> 
+            <div class="modal-content" style="height: 90vh; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.3);"> 
+                <!-- En-tête avec gradient -->
+                <div class="modal-header" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 1.5rem; border: none;">
+                    <div class="d-flex align-items-center">
+                        <img width="48" height="48" src="https://img.icons8.com/3d-fluency/48/resume.png" alt="resume" class="me-3"/>
+                        <div>
+                            <h3 class="mb-0" style="color: white;">Mon CV</h3>
+                            <small style="opacity: 0.9;">Emmanuel CHABRIER - Développeur Web</small>
+                        </div>
+                    </div>
+                    <button data-bs-dismiss="modal" class="modal-close" style="color: white; font-size: 1.5rem;">✌</button> 
                 </div>
-                <div class="flex-grow-1 d-flex flex-column justify-content-center align-items-center text-center">
-                    <h3 style="color:#1E90FF">Mon CV</h3>
-                    <img class="mb-3 mt-3" width="94" height="94" src="https://img.icons8.com/3d-fluency/94/resume.png" alt="resume"/>
-                    <p>Vous pouvez télécharger mon CV ci-dessous :</p>
-                    <div class="mt-4">
-                        <a href="assets/cv/CV-Emmanuel-Chabrier.pdf" class="btn btn-primary" download="CV-Emmanuel-Chabrier.pdf">Télécharger mon CV</a> 
+                
+                <!-- Corps avec PDF -->
+                <div class="modal-body p-3" style="background-color: #f5f5f5; overflow: hidden; flex: 1;">
+                    <div style="background: white; height: 100%; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+                        <iframe 
+                            src="assets/cv/CV-Emmanuel-Chabrier.pdf" 
+                            style="width: 100%; height: 100%; border: none;"
+                            title="CV Emmanuel Chabrier">
+                        </iframe>
+                    </div>
+                </div>
+                
+                <!-- Pied avec boutons -->
+                <div class="modal-footer" style="background-color: #f8f9fa; padding: 1rem; border-top: 2px solid #e9ecef; justify-content: space-between;">
+                    <div>
+                        <small class="text-muted">💼 Disponible pour un stage de 10 semaines - Février 2026</small>
+                    </div>
+                    <div class="d-flex gap-2">
+                        <a href="assets/cv/CV-Emmanuel-Chabrier.pdf" class="btn btn-outline-primary" target="_blank">
+                            <i class="bi bi-eye me-1"></i>Ouvrir dans un nouvel onglet
+                        </a>
+                        <a href="assets/cv/CV-Emmanuel-Chabrier.pdf" class="btn btn-primary" download="CV-Emmanuel-Chabrier.pdf">
+                            <i class="bi bi-download me-1"></i>Télécharger le CV
+                        </a>
                     </div>
                 </div>
             </div> 

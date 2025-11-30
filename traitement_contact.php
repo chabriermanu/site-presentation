@@ -1,9 +1,9 @@
 <?php
 // Configuration BDD
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'mon_site');
-define('DB_USER', 'root');
-define('DB_PASS', '');
+define('DB_HOST', 'sql313.infinityfree.com');
+define('DB_NAME', 'if0_40554451_mon_site');
+define('DB_USER', 'if0_40554451');
+define('DB_PASS', 'Qz4VyfuAcvW');
 
 // Header JSON
 header('Content-Type: application/json; charset=utf-8');
