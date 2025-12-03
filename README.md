@@ -117,7 +117,7 @@ define('DB_PASS', ''); // Votre mot de passe MySQL
 ## 🌐 Déploiement en ligne
 
 Le site est actuellement hébergé sur **InfinityFree** :
-- **URL** : chabrier.great-site.net
+- **URL** : http://chabrier.great-site.net
 - **Hébergement** : InfinityFree (gratuit)
 - **Base de données** : MySQL (sql313.infinityfree.com)
 
@@ -171,3 +171,4 @@ Ce projet est sous licence **MIT** - voir le fichier [LICENSE](LICENSE) pour plu
 
 
 *Réalisé avec ❤️ et beaucoup de ☕ - 2025*
+
