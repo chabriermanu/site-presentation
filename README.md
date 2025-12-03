@@ -117,7 +117,7 @@ define('DB_PASS', ''); // Votre mot de passe MySQL
 ## 🌐 Déploiement en ligne
 
 Le site est actuellement hébergé sur **InfinityFree** :
-- **URL** : [http://ixnmzfpm.infinityfree.com](http://ixnmzfpm.infinityfree.com)
+- **URL** : chabrier.great-site.net
 - **Hébergement** : InfinityFree (gratuit)
 - **Base de données** : MySQL (sql313.infinityfree.com)
 
@@ -168,5 +168,6 @@ Ce projet est sous licence **MIT** - voir le fichier [LICENSE](LICENSE) pour plu
 💻 Développeur Web & Web Mobile - Formation AFPA Saint-Jean-de-Védas
 
 ---
+
 
 *Réalisé avec ❤️ et beaucoup de ☕ - 2025*
